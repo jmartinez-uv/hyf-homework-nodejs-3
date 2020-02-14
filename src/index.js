@@ -10,6 +10,7 @@ app.get('/users', function(req, res){
 	res.json({
 		user: "juan",
 		email: 'j@gmail.com',
+		city:"tepic"
 	})
 })
 
